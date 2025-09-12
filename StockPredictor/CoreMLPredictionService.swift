@@ -42,7 +42,7 @@ class CoreMLPredictionService {
         )
         
         // --- Run the Prediction ---
-        print("Making prediction with REAL model...")
+        print("Making prediction with REAL Model...")
         // We now pass the single, specific input object to the model with the correct 'input' label.
         let prediction = try model.prediction(input: modelInput)
         
