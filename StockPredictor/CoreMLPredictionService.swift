@@ -34,17 +34,16 @@ class CoreMLPredictionService {
         // --- DEFINITIVE FIX: Prepare the Specific Model Input ---
         // Xcode automatically generates a 'StockTrendClassifierInput' class from your model.
         // We create an instance of this class to pass our features.
-        let modelInput = StockTrendClassifierInput(
-            Close: latestDataPoint.close,
-            Volume: Double(latestDataPoint.volume),
+        let input = StockTrendClassifierInput(
             SMA_50: sma50,
             RSI: rsi
         )
+
         
         // --- Run the Prediction ---
-        print("Making prediction with REAL model...")
+        print("Making prediction with REAL Model...")
         // We now pass the single, specific input object to the model with the correct 'input' label.
-        let prediction = try model.prediction(input: modelInput)
+        let prediction = try model.prediction(input: input)
         
         // --- Format and Return the Output ---
         let trend = prediction.Target
