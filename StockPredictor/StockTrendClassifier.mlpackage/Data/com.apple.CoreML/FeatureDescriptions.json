@@ -1,0 +1,24 @@
+{
+  "Inputs" : {
+    "RSI" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "SMA_50" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Outputs" : {
+    "Target" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "TargetProbability" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  },
+  "States" : {
+
+  }
+}
