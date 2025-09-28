@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC0AE4EC2E89175800D2685B /* README.md  in Resources */ = {isa = PBXBuildFile; fileRef = CC0AE4EB2E89174700D2685B /* README.md  */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CCD14C352E731E0B0068F215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0AE4EB2E89174700D2685B /* README.md  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "README.md "; sourceTree = "<group>"; };
 		CCD14C272E731E0A0068F215 /* StockPredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockPredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD14C342E731E0B0068F215 /* StockPredictorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockPredictorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD14C3E2E731E0B0068F215 /* StockPredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockPredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		CCD14C1E2E731E0A0068F215 = {
 			isa = PBXGroup;
 			children = (
+				CC0AE4EB2E89174700D2685B /* README.md  */,
 				CCD14C292E731E0A0068F215 /* StockPredictor */,
 				CCD14C372E731E0B0068F215 /* StockPredictorTests */,
 				CCD14C412E731E0B0068F215 /* StockPredictorUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0AE4EC2E89175800D2685B /* README.md  in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

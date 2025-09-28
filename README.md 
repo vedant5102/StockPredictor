@@ -1,0 +1,32 @@
+# 📈 Stock Predictor (iOS + Core ML)
+
+An on-device AI-powered stock trend predictor built with **SwiftUI**, **Core ML**, and **Alpha Vantage API**.
+
+## 🚀 Features
+- Enter a stock symbol (e.g., `AAPL`, `GOOG`, `TSLA`)
+- Fetches last 100 days of historical stock data
+- Calculates technical indicators (**SMA**, **RSI**)
+- Predicts stock **trend (Up/Down)** with confidence using a Core ML model
+- Displays forecast price and interactive chart
+
+## 🛠️ Tech Stack
+- **SwiftUI** for UI
+- **Core ML** for on-device machine learning
+- **Alpha Vantage API** for market data
+- **Charts Framework** for data visualization
+
+## 📸 Screenshots
+*(Add screenshots of your app here)*
+
+## 📂 Project Structure
+- `ContentView.swift` → UI layout (Dashboard style)
+- `StockViewModel.swift` → ViewModel handling data + predictions
+- `CoreMLPredictionService.swift` → Handles Core ML model inference
+- `StockDataService.swift` → Fetches stock data from Alpha Vantage
+- `DataModels.swift` → Data models for decoding API response
+
+## ⚙️ Setup Instructions
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/<your-username>/StockPredictor.git
+
