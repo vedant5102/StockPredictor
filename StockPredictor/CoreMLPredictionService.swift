@@ -36,7 +36,7 @@ class CoreMLPredictionService {
         // We create an instance of this class to pass our features.
         let input = StockTrendClassifierInput(
             SMA_50: sma50,
-            RSI: rsi
+            RSI: rsi // changes minor
         )
 
         
